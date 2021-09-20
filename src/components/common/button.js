@@ -54,7 +54,7 @@ const Button = ({
 
 Button.defaultProps = {
   title: "Button",
-  link: "https://zonayed.me",
+  link: "https://amarpariharme.netlify.app",
   target: "",
   marginTop: 0,
   marginBottom: 0,

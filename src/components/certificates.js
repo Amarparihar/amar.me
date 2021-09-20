@@ -2,8 +2,7 @@ import React from "react"
 
 
 import { Container , Title } from "./common"
-import FullStack from "../assets/image/Fullstack.png"
-import IPTCertificate from "../assets/image/IPTCertificate.png"
+import FullStack from "../assets/image/FullStack.png"
 import JSCertificate from "../assets/image/JSCertificate.png"
 
 import "./certificates.css"
@@ -17,9 +16,7 @@ const Certificate = () => {
               <div className="certificate-image">
               <img alt="fullstack" src={FullStack} />
               </div>
-              {/* <div className="certificate-image">
-              <img alt="IPTC" src={IPTCertificate} />
-              </div> */}
+            
               <div className="certificate-image">
               <img alt="JS" src={JSCertificate} />
               </div>

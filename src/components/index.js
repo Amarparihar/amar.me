@@ -1,0 +1,7 @@
+export * from "./Intro"
+export * from "./About"
+export * from "./Skill"
+export * from "./Lovetodo"
+export * from "./Projects"
+export * from "./certificates"
+export * from "./Contact"

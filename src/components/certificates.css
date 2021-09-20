@@ -1,0 +1,43 @@
+.certificate {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 100px;
+  }
+  
+  .certificate > * {
+    flex: 1 1 calc(50% - 30px);
+  }
+  
+  .certificate > *:first-of-type {
+    margin-right: 15px;
+  }
+  
+  .certificate > *:last-of-type {
+    margin-left: 15px;
+  }
+
+  .certificate-image{
+      display: block;
+      block-size: 40%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .certificate {
+      padding-right: 0;
+    }
+  
+    .certificate > * {
+      flex-basis: 100%;
+    }
+  
+    .certificate > *:first-of-type {
+      margin-right: 0;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  
+    .certificate > *:last-of-type {
+      margin-left: 0;
+      text-align: center;
+    }
+  }

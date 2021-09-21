@@ -27,7 +27,7 @@
   }
   
   .portfolio-items {
-    display:flex;
+    display : flex;
     flex-wrap: wrap;
   }
   
@@ -45,7 +45,7 @@
   
   .portfolio-items > *:nth-child(3n + 3),
   .portfolio-items > *:last-child {
-    margin-right: 0;
+    margin-left: 0;
   }
   
   .portfolio-items .details {
@@ -162,6 +162,12 @@
   
     .portfolio-items > *:last-child {
       margin-bottom: 0;
+    }
+
+    .portfolio-items .details h4 {
+      font-size: 20px;
+      font-weight: 900;
+      margin-bottom: 15px;
     }
   }
   

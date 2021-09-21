@@ -88,11 +88,11 @@ const Project = () => {
               </div>
             ))}
           </div>
-          <div className="portfolio-items portfolios-regular">
+          {/* <div className="portfolio-items portfolios-regular">
             {selectedProjects.map((project, index) => (
               <div key={index} className="portfolio small">
                 <div className="portfolio-img">
-                  <img alt={project.name} src={project.image} />
+                  <img alt={project.name} src={project.image} width="100%" height="300px" />
                 </div>
                 <div className="details">
                   <h4>
@@ -139,7 +139,7 @@ const Project = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
          
         </div>
       </Container>

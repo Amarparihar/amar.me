@@ -12,8 +12,6 @@ export const skills = {
     
     Programming: [
       { name: "JavaScript"},
-      { name: "C"},
-      { name: "C++"},
       { name: "Java"},
     ],
     Tools: [

@@ -20,6 +20,7 @@ export const projects = {
       source: "https://github.com/Amarparihar/reset-password-react",
       tools: ["HTML", "CSS", "Bootstrap", "ReactJs", "NodeJs", "mongoDB"],
     },
+    
     {
       type: "featured",
       name: "Frontend Admin Page",
@@ -30,10 +31,8 @@ export const projects = {
       source: "https://github.com/Amarparihar/frontend-admin-page",
       tools: ["HTML", "CSS", "Bootstrap", "ReactJs"],
     },
-  ],
-  Others: [
     {
-      type: "regular",
+      type: "featured",
       name: "Countries Weather Data",
       image: require("./images/weatherimage.jpg").default,
       description:
@@ -42,5 +41,19 @@ export const projects = {
       source: "https://github.com/Amarparihar/WeatherAPI",
       tools: ["HTML", "CSS", "Bootstrap", "Javascript"],
     },
+
+  
   ],
+  // Others: [
+  //   {
+  //     type: "regular",
+  //     name: "Countries Weather Data",
+  //     image: require("./images/weatherimage.jpg").default,
+  //     description:
+  //       "This is a basic FrontEnd project.In this project I have used the weather Rest Api and display the Population,Region and weather information of all the countries.",
+  //     demo: "https://tender-euclid-152318.netlify.app",
+  //     source: "https://github.com/Amarparihar/WeatherAPI",
+  //     tools: ["HTML", "CSS", "Bootstrap", "Javascript"],
+  //   },
+  // ],
 }

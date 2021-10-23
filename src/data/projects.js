@@ -2,6 +2,16 @@ export const projects = {
   Web: [
     {
       type: "featured",
+      name: "Personal Portfolio",
+      image: require("./images/portfolio.png").default,
+      description:
+        "Design a personal portfolio to show the my work and better understanding of who am I.",
+      demo: "https://amarpariharme.netlify.app",
+      source: "https://github.com/Amarparihar/amar.me",
+      tools: ["ReactJs" , "Gatsby"],
+    },
+    {
+      type: "featured",
       name: "URL Shortening",
       image: require("./images/urlimage.jpg").default,
       description:
@@ -12,12 +22,22 @@ export const projects = {
     },
     {
       type: "featured",
-      name: "Forgot Password & Covid-19 Statewise Data",
+      name: "Covid-19 Statewise Info",
       image: require("./images/forgotpass.jpg").default,
       description:
-        "This is a Reset Password Flow and Covid-19 Statewise Data project in Full-Stack.In this project User will get the Covid_19 statewise Data such as active cases, total cases, recovered cases, total deaths,etc. and if user forgot the password the on forgot password page user has to enter registered email id and then after clicked the button it will genrate the string and user will received an email along with the random string and user has to clicked that string then it will redirects to the reset-password page and there user will able to reset their password.",
+        "This is a Covid-19 Statewise information app in Full-Stack.In this project User will get the Covid_19 statewise Data such as active cases, total cases, recovered cases, total deaths,etc. with login authentications",
       demo: "https://modest-nobel-97ff69.netlify.app",
       source: "https://github.com/Amarparihar/reset-password-react",
+      tools: ["HTML", "CSS", "Bootstrap", "ReactJs", "NodeJs", "mongoDB"],
+    },
+    {
+      type: "featured",
+      name: "Bucketlist App",
+      image: require("./images/dream.jpg").default,
+      description:
+        "Design small app to store a memories. Users can create a wish list and will follow them, made it happen and can store their memories.",
+      demo: "https://dreamerslist.netlify.app",
+      source: "https://github.com/Amarparihar/bucketlist-react",
       tools: ["HTML", "CSS", "Bootstrap", "ReactJs", "NodeJs", "mongoDB"],
     },
     

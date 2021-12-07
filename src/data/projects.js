@@ -2,16 +2,6 @@ export const projects = {
   Web: [
     {
       type: "featured",
-      name: "Personal Portfolio",
-      image: require("./images/portfolio.png").default,
-      description:
-        "Design a personal portfolio to show the my work and better understanding of who am I.",
-      demo: "https://amarpariharme.netlify.app",
-      source: "https://github.com/Amarparihar/amar.me",
-      tools: ["ReactJs" , "Gatsby"],
-    },
-    {
-      type: "featured",
       name: "URL Shortening",
       image: require("./images/urlimage.jpg").default,
       description:

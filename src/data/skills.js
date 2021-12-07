@@ -5,14 +5,14 @@ export const skills = {
       { name: "React" },
       { name: "Node Js"},
       { name: "Express JS"},
-      { name: "Gatsby" },
       { name: "MongoDB"},
       { name: "MySQL"},
     ],
     
     Programming: [
       { name: "JavaScript"},
-      { name: "Java"},
+      { name: "C"},
+      {name : "OOPs Basic"}
     ],
     Tools: [
       { name: "Github"},

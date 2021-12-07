@@ -24,7 +24,7 @@ const About = () => {
             </p>
             <div className="about-action">
               <Button
-                link="https://drive.google.com/file/d/15QDeUk5wh8eXvJ5bsDTlG5wXU2nCg_Vu/view?usp=sharing"
+                link="https://drive.google.com/file/d/179pez6m26IbMmzXrUryFTeRE9dNqtbqY/view?usp=sharing"
                 target="_blank"
                 bgColor="#00cf5d"
                 title="Get Resume"
